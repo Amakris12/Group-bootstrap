@@ -18,9 +18,23 @@
         button.rounded-circle{
             height: 6rem;
             width: 6rem;
-            background-color: red;
+            background-color: rgb(245,0,0);
             border: yellow 3px solid;
             color: yellow;
+        }
+        h1{
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: yellow; /* Can be changed in the live sample */
+            color: rgb(245,0,0);
+            font-weight: 900;
+        }
+        div.col-4{
+            padding: 1rem;
+        }
+        .contentDiv{
+            background-color: rgba(50, 50, 50, 0.5);
+            width: 32%;
+            margin-right: 1%;
         }
     </style>
     <title>Donkey Kong</title>
@@ -33,6 +47,48 @@
             <div class="col-4"><a href="../html/retroindex.html"><button type="button" class="rounded-circle">Back to home</button></a></div>
             <div class="col-4"><img src="../images/dklogo.png" width="100%"></div>
             <div class="col-4"><a href="../html/kongretro.html"><button type="button" class="rounded-circle">Retro Layout</button></a></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4 contentDiv">
+                <h1>History</h1>
+                <p>
+                    The games of the first genre are mostly single-screen platform/action puzzle types, featuring Donkey Kong as the opponent in an industrial construction setting. Donkey Kong first made his appearance in the 1981 arcade machine called Donkey Kong, in which he faced Jumpman (Mario). This game was also the first appearance of Mario, pre-dating the well-known Super Mario Bros. by four years. In 1994, the series was revived as the Donkey Kong Country series, featuring Donkey Kong and his clan of other apes as protagonists in their native jungle setting versus a variety of anthropomorphic enemies, usually against the Kremlings, a clan of crocodiles and their leader King K. Rool. These are side-scrolling platform games.
+                </p>
+            </div>
+            <div class="col-4 contentDiv">
+                <h1>Characters</h1>
+                <img src="../images/dkcharacters.jpg" width="80%">
+                <p>Some notable characters from the series are Donkey Kong, Diddy Kong, Dixie Kong, Funky Kong, Cranky Kong, King K. Rool, Wrinkly Kong, Chunky Kong, Lanky Kong, Candy Kong</p>
+            </div>
+            <div class="col-4 contentDiv">
+                <table style="height: 100%;">
+                    <tr style="height: 50%;">
+                        <h1>Wii Games</h1>
+                        <ul class="text-start">
+                            <li>Donkey Kong Barrel Blast</li>
+                            <ul>
+                                <li>Release Date: June 28, 2007</li>
+                                <li>Developer: Paon</li>
+                            </ul>
+                            <li>Donkey Kong Jungle Beat</li>
+                            <ul>
+                                <li>Release Date: December 11, 2008</li>
+                                <li>Developer: Nintendo EAD</li>
+                            </ul>
+                            <li>Donkey Kong Country Returns</li>
+                            <ul>
+                                <li>Release Date: November 21, 2010</li>
+                                <li>Developer: Retro Studios</li>
+                            </ul>
+                        </ul>
+                    </tr>
+                    <tr style="height: 50%;">
+                        <h1>Video</h1>
+                        <iframe width="50%" height="auto" src="https://www.youtube.com/embed/TMhEs78Zix8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 </body>
