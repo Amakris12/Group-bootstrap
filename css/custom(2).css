@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.fs-1 {
+    color: white;
+    width: 25rem;
+}
+
+.fs-2 {
+    color: white;
+}
+
+.fs-3 {
+    color: white;
+}
+
+.fs-4 {
+    color: turquoise;
+}
+
+.fs-5 {
+    color: white;
+}
+
+.fs-6 {
+    color: transparent;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 65rem;
+}
+
+.rounded {
+    width: 3rem;
+}
+
+.img-fluid {
+    width: 8rem;
+}
+
+.rounded-circle {
+    width: 5rem;
+    border: black solid .1rem;
+}
+
+.col {
+    color: white;
+}
+
+.col-3 {
+    color: white;
+}
+
+hr {
+    background-color: white;
+    border: white solid .003rem;
+    width: 63rem;
+}
+
+.card {
+    width: 29.4rem;
+    border: none;
+}
+
+.nav-link {
+    color: white;
+    transition: none;
+    width: 8.7rem;
+}
+
+.nav-link.active {
+    color: turquoise;
+    width: 9.9rem;
+}
+
+.nav-link:hover {
+    color: turquoise;
+}
+
+.btn-outline-dark {
+    color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
+.btn {
+    transition: none;
+    background-color: transparent;
+}
