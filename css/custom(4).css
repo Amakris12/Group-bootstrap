@@ -1,0 +1,59 @@
+body {
+    background-image: url('../images/Red Odyssey.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-fluid {
+    width: 40rem;
+}
+
+.fs-3 {
+    width: 46rem;
+    color: white;
+}
+
+.navbar {
+    color: black;
+    width: 23.2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(58, 212, 240);
+}
+
+.nav-link:visited {
+    color: rgb(58, 212, 240);
+}
+
+.nav-link:visited:hover {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(58, 212, 240);
+}
+
+.dropdown-item:visited {
+    color: rgb(2, 43, 2);
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 125rem;
+    max-width: 100%;
+}
+
+iframe {
+    display: block; 
+    margin: auto;
+}
