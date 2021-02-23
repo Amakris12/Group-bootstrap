@@ -1,0 +1,84 @@
+.accordion-button:not(.collapsed) {
+    background-color: rgb(226, 223, 223);
+}
+
+.accordion-header {
+    background-color: rgb(226, 223, 223);
+    border: solid .3rem turquoise;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 125rem;
+    padding-top: 10rem;
+}
+
+.list-group-item.active {
+    background-color: transparent;
+    border: transparent;
+    color: turquoise;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: transparent;
+}
+
+.list-group-item:hover {
+    background-color: transparent;
+    color: turquoise;
+}
+
+.card {
+    width: 45rem;
+    border: solid .3rem black;
+}
+
+.card-body {
+    background-color: transparent;
+    border: none;
+}
+
+.card-body-outline {
+    border-color: turquoise;
+}
+
+.rounded {
+    width: 3rem;
+}
+
+.img-fluid {
+    width: 4rem;
+}
+
+.fs-1:hover {
+    color: black;
+}
+
+.fs-3 {
+    color: black;
+    width: 40.7rem;
+    padding-right: 30rem;
+}
+
+.fs-5 {
+    color: black;
+}
+
+hr {
+    color: turquoise;
+    border: solid .1rem turquoise
+}
+
+.btn {
+    border: turquoise solid .003rem;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: none;
+}
