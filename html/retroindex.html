@@ -11,6 +11,7 @@
             text-align: center;
             background-color: #2d2d2d;
             color: white;
+            font-family: font;
         }
         div.carousel{
             width: 80%;
@@ -41,8 +42,8 @@
             height: 10rem;
         }
         button.rounded-circle{
-            height: 7rem;
-            width: 7rem;
+            height: calc(4rem + 4vw);
+            width: calc(4rem + 4vw);
             color: white;
             background-color: #4d4d4d;
         }
@@ -52,6 +53,15 @@
         }
         br{
             height: 3rem;
+        }
+        h1{
+            font-size: calc(0.5rem + 1.5vw);
+        }
+        p{
+            font-size: calc(0.2rem + 0.6vw);
+        }
+        .footerText{
+            font-size: calc(0.3rem + 0.6vw);
         }
     </style>
     <title>The Wii!</title>
@@ -81,12 +91,12 @@
               <div class="carousel-item">
                     <a href="../html/mario.html">
                         <div class="d-block slides text-center">
-                            <table style="height: 100%;">
+                            <table style="height: 100%;" class="mx-auto">
                                 <tr style="height: 90%;">
                                     <td><img src="../images/modernmariothumbnail.png" width="80%"></td>
                                 </tr>
                                 <tr>
-                                    <td><p style="margin-top: 5rem;">Learn some things about the Mario series and some of its games on the Wii</p></td>
+                                    <td><p style="margin-top: 5rem; width: 100%;">Learn some things about the Mario series and some of its games on the Wii</p></td>
                                 </tr>
                             </table>
                         </div>
@@ -136,10 +146,10 @@
                 <a href="../html/spec.html"><button class="rounded-circle">Wii Specs</button></a>
             </div>
             <div class="col-4" id="footer">
-                The Wii and any trademarks listed on site belong to Nintendo. Feel free to visit their social medias below:
+                <p class="footerText">The Wii and any trademarks listed on site belong to Nintendo. Feel free to visit their social medias below:</p>
                 <ul style="list-style-type: none;">
-                    <li><a href="https://twitter.com/NintendoAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
-                    <li><a href="https://www.youtube.com/user/Nintendo">YouTube</a></li>
+                    <li><a href="https://twitter.com/NintendoAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="footerText">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/user/Nintendo" class="footerText">YouTube</a></li>
                 </ul>
             </div>
             <div class="col-4">
