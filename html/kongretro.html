@@ -1,11 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <title>Donkey Kong</title>
+  <link rel="icon" type="image/png" href="../images/dkicon.jpg">
+  <link rel="stylesheet" href="../css/custom(2).css">
+  <link rel="stylesheet" href="../css/custom(3).css">
+  <style>
+      body{
+          background-color: #010101;
+          color: white;
+          font-family: font;
+      }
+      div#title{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          text-align: center;
+      }
+      .accordion-button{
+          color: #d8a13f;
+          font-family: eightbit;
+      }
+      #accordionFlushExample{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 60%;
+      }
+      #bottomBar{
+          text-align: center;
+          font-family: eightbit;
+      }
+      @font-face{
+          font-family: eightbit;
+          src:url(../font/OldSchoolAdventures-42j9.ttf);
+      }
+      a{
+          color: white;
+          text-decoration: none;
+      }
+      button.accordion-button{
+        font-size: calc(0.3rem + 1vw);
+      }
+      .contentText{
+        font-size: calc(0.3rem + 0.6vw);
+      }
+      .footerText{
+        font-size: calc(0.3rem + 0.7vw);
+      }
+  </style>
 </head>
 <body>
-    
+    <div class="container">
+        <p style="margin-bottom: 5rem;"></p>
+        <div id="title">
+            <img src="../images/donkeykongretrotitle.PNG" width="80%">
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Games
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="contentText">
+                        <li>Donkey Kong Barrel Blast</li>
+                        <ul>
+                            <li>Release Date: June 28, 2007</li>
+                            <li>Developer: Paon</li>
+                        </ul>
+                        <li>Donkey Kong Jungle Beat</li>
+                        <ul>
+                            <li>Release Date: December 11, 2008</li>
+                            <li>Developer: Nintendo EAD</li>
+                        </ul>
+                        <li>Donkey Kong Country Returns</li>
+                        <ul>
+                            <li>Release Date: November 21, 2010</li>
+                            <li>Developer: Retro Studios</li>
+                        </ul>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Characters
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-center">
+                      <img src="../images/dkcharacters.jpg" width="80%">
+                      <p class="contentText">Some notable characters from the series are Donkey Kong, Diddy Kong, Dixie Kong, Funky Kong, Cranky Kong, King K. Rool, Wrinkly Kong, Chunky Kong, Lanky Kong, Candy Kong</p>
+                  </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 History
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <!--pulled from wikipedia-->
+                    <p class="contentText">The games of the first genre are mostly single-screen platform/action puzzle types, featuring Donkey Kong as the opponent in an industrial construction setting. Donkey Kong first made his appearance in the 1981 arcade machine called Donkey Kong, in which he faced Jumpman (Mario). This game was also the first appearance of Mario, pre-dating the well-known Super Mario Bros. by four years. In 1994, the series was revived as the Donkey Kong Country series, featuring Donkey Kong and his clan of other apes as protagonists in their native jungle setting versus a variety of anthropomorphic enemies, usually against the Kremlings, a clan of crocodiles and their leader King K. Rool. These are side-scrolling platform games.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Video
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-center">
+                    <iframe width="70%" height="auto" src="https://www.youtube.com/embed/TMhEs78Zix8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br>
+          <div class="row" id="bottomBar">
+              <div class="col-4"><a href="../index.html" class="footerText">Back to home</a></div>
+              <div class="col-4">
+                <p class="footerText">Feel free to visit Nintendo's <a href="https://twitter.com/NintendoAmerica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="color: #194475;">Twitter</a> and <a href="https://www.youtube.com/user/Nintendo" style="color: #194475;">YouTube</a></p>
+              </div>
+              <div class="col-4"><a href="../html/kong.html" class="footerText">Modern Layout</a></div>
+          </div>
+    </div>
 </body>
 </html>
