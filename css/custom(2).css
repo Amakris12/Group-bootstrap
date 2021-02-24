@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: font;
 }
 
 .fs-1 {
@@ -25,6 +26,7 @@ body {
 
 .fs-6 {
     color: transparent;
+    background-color: black;
 }
 
 .container,
@@ -47,7 +49,7 @@ body {
 
 .rounded-circle {
     width: 5rem;
-    border: black solid .1rem;
+    border: none;
 }
 
 .col {
@@ -84,13 +86,23 @@ hr {
     color: turquoise;
 }
 
-.btn-outline-dark {
-    color: transparent;
-    border: none;
-    background-color: transparent;
-}
-
 .btn {
     transition: none;
     background-color: transparent;
+    border: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+    border: none;
+}
+
+@font-face {
+    font-family: font;
+    src: url('../font/contl.ttf');
+}
+
+#medley {
+    width: 0rem;
+    display: none;
 }

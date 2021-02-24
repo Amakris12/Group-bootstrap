@@ -1,3 +1,12 @@
+html {
+    cursor: url('../images/wii-open-ccw.cur'), default;
+}
+
+body {
+    cursor: url('../images/wii-open-ccw.cur'), default;
+    font-family: font;
+}
+
 .accordion-button:not(.collapsed) {
     background-color: rgb(226, 223, 223);
 }
@@ -39,6 +48,10 @@
     border: solid .3rem black;
 }
 
+.card:hover {
+    cursor: url('../images/wii-open-ccw.cur'), default;
+}
+
 .card-body {
     background-color: transparent;
     border: none;
@@ -56,6 +69,10 @@
     width: 4rem;
 }
 
+.img-fluid:hover {
+    cursor: url('../images/Wii Cursor.cur'), default;
+}
+
 .fs-1:hover {
     color: black;
 }
@@ -64,6 +81,10 @@
     color: black;
     width: 40.7rem;
     padding-right: 30rem;
+}
+
+.fs-3:hover {
+    cursor: url('../images/Wii Cursor.cur'), default;
 }
 
 .fs-5 {
@@ -79,6 +100,28 @@ hr {
     border: turquoise solid .003rem;
 }
 
+.btn-light:hover {
+    cursor: url('../images/Wii Cursor.cur'), default;
+}
+
 .btn-check:focus + .btn, .btn:focus {
     box-shadow: none;
+}
+
+.btn:hover {
+    cursor: url('../images/Wii Cursor.cur'), default;
+}
+
+.collapsed:hover {
+    cursor: url('../images/Wii Cursor.cur'), default;
+}
+
+#medley {
+    width: 0rem;
+    display: none;
+}
+
+@font-face {
+    font-family: font;
+    src: url('../font/contl.ttf');
 }
