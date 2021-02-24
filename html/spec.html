@@ -7,8 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/custom(3).css">
+    <link rel="icon" href="../images/Wii_logo.png" type="image/gif" sizes="32x32">
 </head>
 <body>
+
 <div class="container">
 
 <div class="card mx-auto">
@@ -88,19 +90,25 @@
 
 <div class="row gx-5">
 
-<div class="col-3"><p class="fs-6"></p></div>
+<div class="col-1"><p class="fs-6"></p></div>
 
 <div class="col-4"><a href="../index.html" class="btn" type="button">Back to Home</a></div>
 
-<div class="col"><a href="../html/modern specs.html" class="btn" type="button">Toggle Layout</a></div>
+<div class="col-4"><button class="btn" id="b1" onclick="activateSound();">Play Music</button></div>
 
-<div class="col-1"><p class="fs-6"></p></div>
+<div class="col-2"><a href="../html/modern specs.html" class="btn" type="button">Toggle Layout</a></div>
 
 </div>
+
+    <audio controls autoplay loop id="medley">
+    <source src="../sounds/04. Mii Plaza.mp3" type="audio/mpeg">
+    </audio>
 
 
 
 </div>
     
+
+<script src="../js/script.js"></script>
 </body>
 </html>

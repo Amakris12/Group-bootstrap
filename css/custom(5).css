@@ -1,10 +1,16 @@
 body {
     background-image: url('../images/Mario retro.jpg');
     background-size: cover;
+    font-family: font;
 }
 
 .img-fluid {
     width: 40rem;
+}
+
+.fs-2 {
+    color: white;
+    text-decoration: underline white solid;
 }
 
 .fs-3 {
@@ -14,7 +20,7 @@ body {
 
 .navbar {
     color: black;
-    width: 23.2rem;
+    width: 36.8rem;
 }
 
 .nav-link {
@@ -66,3 +72,23 @@ iframe {
     height: 5rem;
 }
 
+#medley {
+    width: 0rem;
+    display: none;
+}
+
+#b1 {
+    background-color: coral;
+    color: rgb(39, 131, 235);
+    width: 11.7rem;
+}
+
+#b1:hover {
+    background-color: rgb(39, 131, 235);
+    color: coral;
+}
+
+@font-face {
+    font-family: font;
+    src: url('../font/SuperMario256.ttf');
+}

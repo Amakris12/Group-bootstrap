@@ -2,10 +2,15 @@ body {
     background-image: url('../images/Red Odyssey.png');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: font;
 }
 
 .img-fluid {
     width: 40rem;
+}
+
+.fs-2 {
+    color: white;
 }
 
 .fs-3 {
@@ -14,8 +19,7 @@ body {
 }
 
 .navbar {
-    color: black;
-    width: 23.2rem;
+    width: 39.1rem;
 }
 
 .nav-link {
@@ -56,4 +60,27 @@ body {
 iframe {
     display: block; 
     margin: auto;
+}
+
+#medley {
+    width: 0rem;
+    display: none;
+}
+
+.btn {
+    background-color: rgb(39, 131, 235);
+    color: white;
+    width: 12.1rem;
+    border: white solid .1rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(39, 131, 235);
+    border: rgb(39, 131, 235) solid .1rem;
+}
+
+@font-face {
+    font-family: font;
+    src: url('../font/moon_get-Heavy.ttf');
 }
